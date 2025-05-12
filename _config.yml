@@ -1,120 +1,203 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+favicon: images/favicon.ico # Replace with your favicon path
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Amandeep Singh Johar
+title: Penetration Tester
+email: aman.icse10@gmail.com
+website: https://www.hackthebox.eu/home/users/profile/117595 # Your Hack The Box Profile or personal website
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true # Set to true or never as you prefer
 
-# Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# Social links (Fill these in if you have them)
+twitter_username:me_amanjohar
+github_username:amanjohar
+# stackoverflow_username:
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+instagram_username:
+linkedin_username:
+# xing_username:
+# pinterest_username:
+youtube_username:
+# googleplus_username:
+# orcid_username:
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+- title: Hack The Box Profile
+  icon: fas fa-user-secret # Font Awesome icon for ethical hacking
+  url: https://www.hackthebox.eu/home/users/profile/117595
+# - title: Another Link
+#   icon: fab fa-linkedin
+#   url: your-linkedin-url
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
+# Google Analytics and Tag Manager (Uncomment and configure if needed)
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+# about_title: About Me # Default title, can be changed
+about_profile_image: images/profile.jpg # Replace with your profile image path
+about_content: | # From your Professional Summary
+  Hi, my name is Amandeep Singh Johar but you can call me AJ. I am a Penetration Tester with network penetration testing being my main focus and web applications being secondary. 
+  I value a positive and friendly workplace environment. I am also proficient in wireless and cloud pentesting. I have worked at a number of companies gaining teamwork and leadership skills along with communicating with key stakeholders in assessing project needs.
+  I am adept at python java and c, c++ with bash being my favourite and daily driver. My favourite by far is Red Team assessments.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Network Penetration Testing</mark>, <mark>Web Application Security</mark>, and <mark>Red Team Operations</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience # Work History
+    layout: list
+    content:
+      - layout: left
+        title: Paul International School
+        sub_title: Network Security Administrator
+        caption: October 2023 – Current
+        # link: # Add company website if available
+        # quote: > # Optional quote about the role or company
+        description: |
+          Completed vulnerability scans to identify at-risk systems and remediate issues.
+          Installed and maintained commercial firewall solution, working with security vendors to consistently apply best practices and software updates.
+          Managed and implemented all network security processes and maintained proper reports for same.
+          Documented and provided upgrades to all information security policies and processes.
+          Outlined and maintained security patching schedule to efficiently address ongoing security issues.
+          Decreased security incidents by 70% through Security Patches and System updates.
+          Documented Rules of Engagement (ROE) and defined technical procedures needed for Red/Blue team assessments.
+
+      - layout: left
+        title: Robert Walters
+        sub_title: Remote Penetration Tester
+        caption: February 2022 – July 2023
+        description: |
+          Performed penetration testing on web applications, identifying security vulnerabilities and weaknesses.
+          Conducted automated assessment and utilized automated tools to identify common web application vulnerabilities, such as SQL injection, cross-site scripting (XSS), and insecure direct object references.
+          Collaborated with development teams to provide recommendations for secure coding practices and application security improvements.
+          Prepared detailed reports outlining identified vulnerabilities and suggested remediation strategies.
+
+      - layout: left
+        title: CyberTech Labs
+        sub_title: Remote Penetration Tester
+        caption: March 2020 – December 2021
+        description: |
+          Engaged as remote contract penetration testing specialist for recruiting agency.
+          Conducted penetration testing activities on organization's network infrastructure and web applications.
+          Leveraged virtual private networks (VPNs) and remote access tools to perform assessments from remote location.
+          Collaborated with client's security team to provide detailed reports and recommendations for improving network security.
+
+      - layout: left
+        title: Agency for Science, Technology and Research (A*STAR)
+        sub_title: External Penetration Tester
+        caption: February 2019 – October 2019
+        description: |
+          Worked as contract-based external penetration tester for government agency.
+          Conducted thorough assessments of agency's network infrastructure, identifying vulnerabilities and potential security breaches.
+          Executed targeted attacks to assess effectiveness of agency's security controls.
+          Delivered comprehensive reports with detailed findings, prioritizing vulnerabilities and providing remediation guidance.
+
+      - layout: left
+        title: North Dakota State University
+        sub_title: Junior Network Security Analyst
+        caption: June 2015 – November 2016
+        description: |
+          Penetration test of North Dakota State University IT assets as part of establishing compliance with new cyber security guidelines.
+          Performed risk analyses to identify appropriate security countermeasures.
+          Reviewed violations of computer security procedures and developed mitigation plans.
+          Conducted security audits to identify vulnerabilities using Nessus.
+          Recommended improvements in security systems and procedures.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Coventry University
+        sub_title: Bachelor of Science - Computer Science
+        caption: Graduated July 2019
+        # link: # University website if desired
+        # quote: > # Optional quote
+        description: |
+          Graduated Magna Cum Laude.
+        #  Research: Machine Learning for Predictive Modelling and Data Analysis.
+
+  - title: Certifications
+    layout: list
+    content:
+      - layout: top-middle # Or 'left' if preferred
+        title: Offensive Security Certified Professional (OSCP)
+        caption: October 2020
+        # link: # Link to your certification badge/verification if available
+        # description: Details about the certification if needed.
+
+  - title: Skills
+    layout: list # Using list layout for categorized skills
+    content:
+      - layout: top-middle # Each skill category as an item
+        title: Penetration Testing
+        description: |
+          Metasploit, Wireshark, John the Ripper, SQL Injection, Web Application Testing, Bloodhound, Powershell Empire, Network Monitoring, Burp Suite, Nessus.
+      - layout: top-middle
+        title: Programming & Scripting
+        description: |
+          Java, C, C++, Python, PHP, Bash, HTML.
+      - layout: top-middle
+        title: Security Operations & General IT
+        description: |
+          OSWAP Top 10, OSINT, Nmap, Nessus, Burp Suite, Shodan, Custom Scripts, Active Directory, Blood Hound.
+
+  - title: Accomplishments
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+        title: Competitive Hacking & CTFs
+        description: |
+          Participated in CactusCon 9, NahamCon CTF, FreedomCTF Spring (2021), CactusCon 11, Cyber Apocalypse (2023).
+      - layout: top-middle
+        title: Research & Innovation
+        description: |
+          Collaborated with investigators at Institute of High Performance Computing, Singapore to make breakthrough in Predictive Modelling.
+          Developed region's first self-driving smart car (predefined track).
+          Collaborated with a team of 3 in the development of a Home Automation System.
+          Developed region's first commercially tested Home Automation System, including away-from-home visitor video chat.
+      - layout: top-middle
+        title: Community Involvement
+        description: |
+          Participated in OWASP Singapore meetup (2019).
+      - layout: top-middle
+        title: Technical Projects
+        description: |
+          Implemented real-time intrusion detection on an isolated network.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  # Optional: You can create a dedicated "Projects" section if you prefer,
+  # adapting some of your accomplishments or adding new ones.
+  # - title: Projects
+  #   layout: list
+  #   content:
+  #     - layout: top-middle
+  #       title: Self-Driving Smart Car
+  #       # link: github.com/yourusername/projectname # If you have a repo
+  #       # link_text: View on GitHub
+  #       quote: >
+  #         Pioneered the region's first autonomous vehicle on a predefined track.
+  #       description: |
+  #         Led the development and testing of a self-driving car, focusing on sensor integration and pathfinding algorithms. This project showcased innovation in autonomous systems and practical application of machine learning.
+  #     - layout: top-middle
+  #       title: Advanced Home Automation System
+  #       # link:
+  #       quote: >
+  #         Developed a commercially tested home automation solution with remote capabilities.
+  #       description: |
+  #         Key collaborator in a team of three to design and implement a comprehensive home automation system. Features included remote visitor video chat, security integration, and smart appliance control.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: References available upon request # You can override the default text
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -124,4 +207,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
