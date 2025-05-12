@@ -1,6 +1,6 @@
 # Site
 repository: amanjohar/amanjohar.github.io
-favicon: images/favicon.ico # Replace with your favicon path
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -47,71 +47,98 @@ additional_links:
 # about_title: About Me # Default title, can be changed
 about_profile_image: images/profile.jpg # Replace with your profile image path
 about_content: | # From your Professional Summary
-  Hi, my name is Amandeep Singh Johar but you can call me AJ. I am a Penetration Tester with network penetration testing being my main focus and web applications being secondary. 
-  I value a positive and friendly workplace environment. I am also proficient in wireless and cloud pentesting. I have worked at a number of companies gaining teamwork and leadership skills along with communicating with key stakeholders in assessing project needs.
-  I am adept at python java and c, c++ with bash being my favourite and daily driver. My favourite by far is Red Team assessments.
-
-  I am most skilled in: <mark>Network Penetration Testing</mark>, <mark>Web Application Security</mark>, and <mark>Red Team Operations</mark>.
+  Hi, my name is Amandeep Singh Johar but you can call me AJ. I am a Penetration Tester with network penetration testing being my main focus.
+  I am also proficient in wireless and cloud pentesting. I have a strong background in network security and have worked on various projects involving vulnerability assesments, risk analysis, and security audits
+  I am adept at python and java with bash being my favourite and daily driver. I really enjoy working with the latest tools and look forward to red team engagements.
+  I am a strong believer in staying up to datewith the latest vulnerabilities and exploits. I am always looking for new challenges and opportunities to learn and grow. 
+  I value a healthy, positive and friendly workplace environment and have worked at a number of companies gaining teamwork and leadership skills along with the ability to work independently. 
+  My favourite by far is Red Team assessments.
 
 content:
+
+  - title: Certifications
+    layout: list
+    content:
+      - layout: top-middle # Or 'left' if preferred
+        title: Offensive Security Certified Professional (OSCP)
+        caption: October 2020
+        link: https://credentials.offsec.com/embed/cb8afdc6-b2a3-4035-ac9b-32ea64020500 # Link to your certification badge/verification if available
+        # description: Details about the certification if needed.
+
+  - title: Skills
+    layout: list # Using list layout for categorized skills
+    content:
+      - layout: top-middle # Each skill category as an item
+        title: Penetration Testing
+        description: |
+          Metasploit, Wireshark, John the Ripper, SQL Injection, Web Application Testing, Bloodhound, Powershell Empire, Network Monitoring, Burp Suite, Nessus, Active Directory.
+      - layout: top-middle
+        title: Programming & Scripting
+        description: |
+          Java, C, C++, Python, PHP, Bash, HTML.
+      - layout: top-middle
+        title: Security Operations & General IT
+        description: |
+          OSWAP Top 10, OSINT, Nmap, Nessus, Burp Suite, Shodan, Custom Scripts, Active Directory, Blood Hound.
+
   - title: Experience # Work History
     layout: list
     content:
       - layout: left
         title: Paul International School
-        sub_title: Network Security Administrator
+        sub_title: Cyber Security Engineer (Provide Training for Students and Staff)
         caption: October 2023 – Current
         # link: # Add company website if available
         # quote: > # Optional quote about the role or company
-        description: |
-          Completed vulnerability scans to identify at-risk systems and remediate issues.
-          Installed and maintained commercial firewall solution, working with security vendors to consistently apply best practices and software updates.
-          Managed and implemented all network security processes and maintained proper reports for same.
-          Documented and provided upgrades to all information security policies and processes.
-          Outlined and maintained security patching schedule to efficiently address ongoing security issues.
-          Decreased security incidents by 70% through Security Patches and System updates.
-          Documented Rules of Engagement (ROE) and defined technical procedures needed for Red/Blue team assessments.
+        #description: |
+        #  Completed vulnerability scans to identify at-risk systems and remediate issues.
+        #  Installed and maintained commercial firewall solution, working with security vendors to consistently apply best practices and software updates.
+        #  Managed and implemented all network security processes and maintained proper reports for same.
+        #  Documented and provided upgrades to all information security policies and processes.
+        #  Outlined and maintained security patching schedule to efficiently address ongoing security issues.
+        #  Decreased security incidents by 70% through Security Patches and System updates.
+        #  Documented Rules of Engagement (ROE) and defined technical procedures needed for Red/Blue team assessments.
 
       - layout: left
         title: Robert Walters
         sub_title: Remote Penetration Tester
         caption: February 2022 – July 2023
-        description: |
-          Performed penetration testing on web applications, identifying security vulnerabilities and weaknesses.
-          Conducted automated assessment and utilized automated tools to identify common web application vulnerabilities, such as SQL injection, cross-site scripting (XSS), and insecure direct object references.
-          Collaborated with development teams to provide recommendations for secure coding practices and application security improvements.
-          Prepared detailed reports outlining identified vulnerabilities and suggested remediation strategies.
+        #description: |
+        #  Performed penetration testing on web applications, identifying security vulnerabilities and weaknesses.
+        #  Conducted automated assessment and utilized automated tools to identify common web application vulnerabilities, such as SQL injection, cross-site scripting (XSS), and insecure direct object references.
+        #  Collaborated with development teams to provide recommendations for secure coding practices and application security improvements.
+        #  Prepared detailed reports outlining identified vulnerabilities and suggested remediation strategies.
 
       - layout: left
         title: CyberTech Labs
         sub_title: Remote Penetration Tester
         caption: March 2020 – December 2021
-        description: |
-          Engaged as remote contract penetration testing specialist for recruiting agency.
-          Conducted penetration testing activities on organization's network infrastructure and web applications.
-          Leveraged virtual private networks (VPNs) and remote access tools to perform assessments from remote location.
-          Collaborated with client's security team to provide detailed reports and recommendations for improving network security.
+        #description: |
+        #  Engaged as remote contract penetration testing specialist for recruiting agency.
+        #  Conducted penetration testing activities on organization's network infrastructure and web applications.
+        #  Leveraged virtual private networks (VPNs) and remote access tools to perform assessments from remote location.
+        #  Collaborated with client's security team to provide detailed reports and recommendations for improving network security.
 
       - layout: left
         title: Agency for Science, Technology and Research (A*STAR)
         sub_title: External Penetration Tester
         caption: February 2019 – October 2019
-        description: |
-          Worked as contract-based external penetration tester for government agency.
-          Conducted thorough assessments of agency's network infrastructure, identifying vulnerabilities and potential security breaches.
-          Executed targeted attacks to assess effectiveness of agency's security controls.
-          Delivered comprehensive reports with detailed findings, prioritizing vulnerabilities and providing remediation guidance.
+        #description: |
+        #  Worked as contract-based external penetration tester for government agency.
+        #  Conducted thorough assessments of agency's network infrastructure, identifying vulnerabilities and potential security breaches.
+        #  Executed targeted attacks to assess effectiveness of agency's security controls.
+        #  Delivered comprehensive reports with detailed findings, prioritizing vulnerabilities and providing remediation guidance.
 
       - layout: left
         title: North Dakota State University
         sub_title: Junior Network Security Analyst
         caption: June 2015 – November 2016
-        description: |
-          Penetration test of North Dakota State University IT assets as part of establishing compliance with new cyber security guidelines.
-          Performed risk analyses to identify appropriate security countermeasures.
-          Reviewed violations of computer security procedures and developed mitigation plans.
-          Conducted security audits to identify vulnerabilities using Nessus.
-          Recommended improvements in security systems and procedures.
+        #description: |
+        #  Penetration test of North Dakota State University IT assets as part of establishing compliance with new cyber security guidelines.
+        #  Performed risk analyses to identify appropriate security countermeasures.
+        #  Reviewed violations of computer security procedures and developed mitigation plans.
+        #  Conducted security audits to identify vulnerabilities using Nessus.
+        #  Recommended improvements in security systems and procedures.
 
   - title: Education
     layout: list
@@ -124,32 +151,7 @@ content:
         # quote: > # Optional quote
         description: |
           Graduated Magna Cum Laude.
-        #  Research: Machine Learning for Predictive Modelling and Data Analysis.
-
-  - title: Certifications
-    layout: list
-    content:
-      - layout: top-middle # Or 'left' if preferred
-        title: Offensive Security Certified Professional (OSCP)
-        caption: October 2020
-        # link: # Link to your certification badge/verification if available
-        # description: Details about the certification if needed.
-
-  - title: Skills
-    layout: list # Using list layout for categorized skills
-    content:
-      - layout: top-middle # Each skill category as an item
-        title: Penetration Testing
-        description: |
-          Metasploit, Wireshark, John the Ripper, SQL Injection, Web Application Testing, Bloodhound, Powershell Empire, Network Monitoring, Burp Suite, Nessus.
-      - layout: top-middle
-        title: Programming & Scripting
-        description: |
-          Java, C, C++, Python, PHP, Bash, HTML.
-      - layout: top-middle
-        title: Security Operations & General IT
-        description: |
-          OSWAP Top 10, OSINT, Nmap, Nessus, Burp Suite, Shodan, Custom Scripts, Active Directory, Blood Hound.
+          Research: Machine Learning for Predictive Modelling and Data Analysis.
 
   - title: Accomplishments
     layout: list
@@ -157,7 +159,11 @@ content:
       - layout: top-middle
         title: Competitive Hacking & CTFs
         description: |
-          Participated in CactusCon 9, NahamCon CTF, FreedomCTF Spring (2021), CactusCon 11, Cyber Apocalypse (2023).
+          Participated in CactusCon 9, 
+          NahamCon CTF, 
+          FreedomCTF Spring (2021), 
+          CactusCon 11, 
+          Cyber Apocalypse (2023).
       - layout: top-middle
         title: Research & Innovation
         description: |
